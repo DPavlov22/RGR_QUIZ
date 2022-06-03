@@ -1,0 +1,42 @@
+body {
+    margin: 0;
+    font-family: 'Open sans', 'sans-serif';
+}
+
+.quiz {
+    margin: 0 auto;
+    width: 600px;
+}
+
+.quiz-question,
+.quiz-results,
+.quiz-indicator {
+    margin-bottom: 20px;
+}
+
+.quiz-question-item-question
+.quiz-results-item-question {
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+
+.quiz-question-item-answers,
+.quiz-results-item-answers {
+    
+    margin: 0;
+    padding: 0;
+    list-style: none;
+
+}
+.quiz-results{
+    display: none;
+}
+
+
+.btn-next {
+
+}
+
+.btn-restart {
+   display: none;
+}
